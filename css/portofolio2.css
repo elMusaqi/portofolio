@@ -1,0 +1,412 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  font-family: 'Righteous', cursive;
+}
+
+h2{
+  font-family: 'Lato', sans-serif;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  font-size: 6rem;
+  color: #3897D9;
+}
+
+h3{
+  font-family: 'Lato', sans-serif;
+}
+
+p{
+  font-family: 'Raleway', sans-serif; 
+}
+
+/*porto1*/
+
+.porto1{
+  
+}
+
+.porto1 h3{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #3897D9;
+  font-size: 3rem;
+}
+
+/*end porto1*/
+
+
+/*porto2*/
+
+.porto2{
+  background-color: #59BCFB;
+  color: white;
+}
+
+.porto2 p{
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.porto2 p span{
+  font-size: 20px;
+}
+
+.porto2 h1{
+  margin-top: 20px;
+  font-size: 12rem;
+  max-width: 100%;
+}
+
+.porto2 .row{
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+/*end porto2*/
+
+
+/*porto3*/
+
+.porto3 .col-md-7{
+  padding: 30px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  background: #59BCFB;
+  color: white;
+  border-radius: 100%;
+  font-size: 2.5rem; 
+}
+
+.porto3 .col-md-7:before{
+  content: "";  
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  border-left: 160px solid #59BCFB;
+  margin-left: -120px;
+  z-index: -1;
+  margin-top: 170px;
+  transform:rotate(180deg);
+  position: absolute; 
+  left: 0; 
+  top: 0;
+}
+
+.porto3 .col-md-7 p{
+  margin: 70px;
+  font-style: italic;
+  font-size: 23px;
+}
+
+/*end porto3*/
+
+
+/*porto4*/
+
+.porto4{
+  background-color: #59BCFB;
+  color: #3897D9;
+}
+
+.porto4 .thumbnail{
+  border: 4px solid #3897D9;
+  fill: #3897D9;
+  border-radius: 5%;
+  padding: 45px;
+  margin-bottom: 80px;
+  cursor: pointer;
+  -webkit-transition:color .25s linear, background-color .25s linear, border-color .25s linear;
+  -moz-transition:color .25s linear, background-color .25s linear, border-color .25s linear;
+  -ms-transition:color .25s linear, background-color .25s linear, border-color .25s linear;
+  -o-transition:color .25s linear, background-color .25s linear, border-color .25s linear;
+  transition:color .25s linear, background-color .25s linear, border-color .25s linear;
+} 
+
+.porto4 .thumbnail:hover{
+  background-color: #3897D9;
+  color: white;
+  fill: white;
+}
+
+.porto4 h3{
+  font-size: 3rem;
+}
+
+.porto4 h2{
+  color: white;
+}
+
+/*end porto4*/
+
+
+/*porto5*/
+
+.porto5 blockquote {
+  position: relative;
+  padding: 20px 120px 0;
+  text-align: center;
+  font-size: 40px; 
+  border:none;
+  line-height: 1.2;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  color: #3897D9;
+}
+
+.porto5 blockquote:before, .porto5 blockquote:after {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  font-size: 130px;
+  line-height: 1; 
+}
+
+.porto5 blockquote:before {
+  top: 0;
+  left: 0;
+  content: "\201C"; 
+}
+
+.porto5 blockquote:after {
+  top: 0;
+  right: 0;
+  content: "\201D"; 
+}
+
+
+@media only screen and (max-width: 1100px) {
+ .porto5 blockquote {
+  font-size: 30px; 
+} 
+
+ }
+
+@media only screen and (max-width: 960px) {
+ .porto5 blockquote {
+  padding: 30px 60px;
+  font-size: 22px; 
+}
+
+ .porto5 blockquote:before, .porto5 blockquote:after {
+  width: 30px;
+  height: 30px;
+  font-size: 70px; 
+} 
+
+ }
+
+@media only screen and (max-width: 690px) {
+ .porto5 blockquote {
+  padding: 10px 30px;
+  font-size: 20px; 
+}
+
+ .porto5  blockquote:before, .porto5 blockquote:after {
+  font-size: 35px; 
+} 
+
+ }
+
+/*end porto5*/
+
+
+/*porto6*/
+.panel-heading:hover {
+    cursor:pointer;
+}
+.panel-heading {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;    
+}
+
+.side-tab:hover {
+        cursor: pointer;
+    }
+    .panel.panel-default {
+        border: none;
+        box-shadow: none !important;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        
+    }
+    .panel-heading {
+        border: none;
+        background-color: #59BCFB;
+    
+    }
+    .panel-body {
+        background-color: #f5f5f5;
+    }
+    .panel-title {
+        font-weight: 400;
+        color: white;
+    }
+
+/*----------------------------------
+    Macbook pro mockup from:
+    http://jaredhardy.com/minimal-devices/
+    
+----------------------------------*/
+
+.md-macbook-pro {
+  display: block;
+  width: 55.3125em;
+  height: 31.875em;
+  max-width: 100%;
+  font-size: 13px;
+  margin: 0 auto;
+
+  @media (max-width:1199px){
+    font-size: 11px;
+  }
+  @media (max-width:1024px){
+    font-size: 10px;
+  }
+
+  @media (max-width:767px){
+    font-size: 7px;
+  }
+
+  @media (max-width:320px){
+    font-size: 5px;
+  }
+
+}
+.md-macbook-pro .md-lid {
+  width: 45em;
+  height: 30.625em;
+  max-width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 1.875em;
+  border: solid 0.1875em #cdced1;
+  background: #131313;
+}
+.md-macbook-pro .md-camera {
+  width: 0.375em;
+  height: 0.375em;
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+  top: 1.0625em;
+  background: #000;
+  border-radius: 100%;
+  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.25);
+}
+.md-macbook-pro .md-camera:after {
+  content: "";
+  display: block;
+  width: 0.125em;
+  height: 0.125em;
+  max-width: 100%;
+  position: absolute;
+  left: 0.125em;
+  top: 0.0625em;
+  background: #353542;
+  border-radius: 100%;
+}
+.md-macbook-pro .md-screen {
+  width: 42.25em;
+  height: 26.375em;
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+  top: 2.0625em;
+  // background: #1d1d1d;
+  background: #fff;
+  overflow: hidden;
+}
+.md-macbook-pro .md-screen img {
+  width: 100%;
+  max-width: 100%;
+}
+.md-macbook-pro .md-base {
+  width: 100%;
+  height: 0.9375em;
+  max-width: 100%;
+  position: relative;
+  top: -0.75em;
+  background: #c6c7ca;
+}
+.md-macbook-pro .md-base:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 0.5em;
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+  bottom: -0.1875em;
+  background: #b9babe;
+  border-radius: 0 0 1.25em 1.25em;
+}
+.md-macbook-pro .md-base:before {
+  content: "";
+  display: block;
+  width: 7.6875em;
+  height: 0.625em;
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+  background: #a6a8ad;
+  border-radius: 0 0 0.625em 0.625em;
+}
+.md-macbook-pro.md-glare .md-lid:after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 0 1.25em 0 0;
+  background: -webkit-linear-gradient(37deg, rgba(255, 255, 255, 0) 50%, rgba(247, 248, 240, 0.025) 50%, rgba(250, 245, 252, 0.08));
+  background: -moz-linear-gradient(37deg, rgba(255, 255, 255, 0) 50%, rgba(247, 248, 240, 0.025) 50%, rgba(250, 245, 252, 0.08));
+  background: -o-linear-gradient(37deg, rgba(255, 255, 255, 0) 50%, rgba(247, 248, 240, 0.025) 50%, rgba(250, 245, 252, 0.08));
+  background: linear-gradient(53deg, rgba(255, 255, 255, 0) 50%, rgba(247, 248, 240, 0.025) 50%, rgba(250, 245, 252, 0.08));
+}
+/*end porto6*/
+
+
+/*porto7*/
+
+.porto7{
+  background-color: #59BCFB;
+}
+
+.porto7 h2{
+  color: white;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.porto7 svg{
+  fill: white;
+  margin-bottom: 80px;
+}
+
+.porto7 svg:hover{
+  border: 8px solid #3897D9;
+  border-radius: 100%;
+   -webkit-transition:color .25s linear, background-color .25s linear, border-color .25s linear;
+  -moz-transition:color .25s linear, background-color .25s linear, border-color .25s linear;
+  -ms-transition:color .25s linear, background-color .25s linear, border-color .25s linear;
+  -o-transition:color .25s linear, background-color .25s linear, border-color .25s linear;
+  transition:color .25s linear, background-color .25s linear, border-color .25s linear;
+}
+
+.porto7 p{
+  color: white;
+  font-size: 1.8rem;
+}
+
+/*end porto7*/
